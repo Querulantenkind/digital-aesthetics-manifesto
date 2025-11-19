@@ -273,7 +273,7 @@ Returns a charge object if the charge succeeded. Throws an error otherwise.
 
 ```shell
 curl https://api.stripe.com/v1/charges \
-  -u sk_test_4eC39HqLyjWDarjtT1zdp7dc: \
+  -u YOUR_SECRET_KEY: \
   -d amount=2000 \
   -d currency=usd \
   -d source=tok_visa \
