@@ -68,7 +68,7 @@ ASCII Art:
 - COLLECTION.md - Index of featured artworks and artists
 - techniques-and-styles.md - Technical approaches and methods
 - artist-profiles/ - Interviews and biographies
-- exhibitions/ - Curated collections and thematic shows
+- exhibitions/ - 9 curated thematic exhibitions with 90+ works
 
 Unicode Art:
 - COLLECTION.md - Unicode symbol artwork
