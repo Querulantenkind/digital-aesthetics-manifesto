@@ -1,0 +1,454 @@
+# Digital Aesthetics Manifesto - .gitignore
+
+# ============================================================================
+# Operating System Files
+# ============================================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ============================================================================
+# Editor and IDE Files
+# ============================================================================
+
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/extensions.json
+*.code-workspace
+.history/
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+Session.vim
+Sessionx.vim
+.netrwhist
+tags
+[._]*.un~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+.org-id-locations
+*_archive
+*_flymake.*
+/eshell/history
+/eshell/lastdir
+/elpa/
+*.rel
+/auto/
+.cask/
+flycheck_*.el
+.projectile
+.dir-locals.el
+
+# Obsidian
+.obsidian/
+.trash/
+
+# ============================================================================
+# Text and Document Files
+# ============================================================================
+
+# Backup and temporary files
+*.bak
+*.tmp
+*.temp
+*.swp
+*.swo
+*~.md
+*.md~
+.*.md
+*.backup
+*.orig
+*.rej
+
+# Draft and work-in-progress
+drafts/
+wip/
+scratch/
+notes.local/
+
+# ============================================================================
+# Media Files (Temporary/Generated)
+# ============================================================================
+
+# Generated thumbnails and previews
+.thumbnails/
+thumbs/
+previews/
+
+# Temporary image files
+*.tmp.png
+*.tmp.jpg
+*.tmp.gif
+temp-images/
+
+# Note: Keep actual ASCII/Unicode art files - they are content!
+# Only ignore temporary or generated versions
+
+# ============================================================================
+# Build and Compilation
+# ============================================================================
+
+# Build outputs
+build/
+dist/
+output/
+_site/
+public/
+
+# Static site generators
+.cache/
+.jekyll-cache/
+.jekyll-metadata
+.hugo_build.lock
+.eleventy.js
+
+# PDF generation
+*.pdf
+!examples/*.pdf
+!publications/*.pdf
+
+# HTML generation
+*.html
+!examples/*.html
+!templates/*.html
+
+# LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+
+# ============================================================================
+# Research and Citations
+# ============================================================================
+
+# Bibliography management
+*.bib.bak
+*-blx.bib
+
+# Citation temporary files
+.citation-cache/
+
+# ============================================================================
+# Dependencies and Packages
+# ============================================================================
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+pip-log.txt
+.pytest_cache/
+
+# Ruby
+*.gem
+.bundle/
+vendor/bundle/
+
+# ============================================================================
+# Version Control
+# ============================================================================
+
+# Git
+.git/
+*.patch
+*.diff
+
+# Mercurial
+.hg/
+
+# SVN
+.svn/
+
+# ============================================================================
+# Environment and Configuration
+# ============================================================================
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.envrc
+
+# Local configuration
+config.local.yml
+config.local.json
+secrets.yml
+secrets.json
+
+# ============================================================================
+# Archives and Compressed Files
+# ============================================================================
+
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+*.gz
+*.bz2
+*.xz
+
+# ============================================================================
+# Interviews and Sensitive Content
+# ============================================================================
+
+# Unpublished interviews
+interviews/unpublished/
+interviews/pending-approval/
+
+# Personal information (protect contributor privacy)
+personal-info/
+contact-lists/
+
+# Embargo content (not yet ready for publication)
+embargo/
+under-review/
+
+# ============================================================================
+# Gallery and Art Submissions
+# ============================================================================
+
+# Submission queue (pending review)
+submissions/pending/
+submissions/rejected/
+
+# Low-resolution or preview versions
+*-preview.*
+*-lowres.*
+
+# ============================================================================
+# Exhibitions
+# ============================================================================
+
+# Exhibition planning (private)
+exhibitions/planning/
+exhibitions/internal/
+
+# Temporary exhibition files
+exhibitions/temp/
+
+# ============================================================================
+# Collaborative Work
+# ============================================================================
+
+# Collaborative drafts (use separate branch)
+collaborative/drafts/
+collaborative/in-progress/
+
+# Comments and review files
+*.comments.md
+*.review.md
+review-notes/
+
+# ============================================================================
+# Project Specific
+# ============================================================================
+
+# Personal notes and todos
+TODO.local.md
+NOTES.local.md
+.personal/
+
+# Local testing
+local-test/
+sandbox/
+experiments/
+
+# Speaker notes for presentations
+speaker-notes/
+presentation-drafts/
+
+# Zine production files (keep final versions)
+zine-production/temp/
+zine-production/drafts/
+
+# ============================================================================
+# Logs and Databases
+# ============================================================================
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# ============================================================================
+# Security and Privacy
+# ============================================================================
+
+# API keys and credentials
+*.key
+*.pem
+credentials.json
+token.json
+
+# Personal identifiable information
+pii/
+identities/
+
+# Anonymous submission tracking (keep metadata private)
+.submission-tracking/
+
+# ============================================================================
+# Translation Work
+# ============================================================================
+
+# Translation memory files
+*.tmx
+*.sdlxliff
+translation-memory/
+
+# Machine translation output (before review)
+mt-output/
+
+# ============================================================================
+# Accessibility Testing
+# ============================================================================
+
+# Screen reader testing logs
+accessibility-logs/
+screenreader-output/
+
+# ============================================================================
+# Miscellaneous
+# ============================================================================
+
+# Lock files
+*.lock
+!package-lock.json
+!yarn.lock
+!Gemfile.lock
+
+# Files that might appear in the root
+.~lock.*
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory
+coverage/
+.nyc_output/
+
+# Temporary folders
+tmp/
+temp/
+
+# Cache directories
+.cache/
+cache/
+
+# ============================================================================
+# Documentation Build
+# ============================================================================
+
+# Sphinx
+docs/_build/
+
+# MkDocs
+site/
+
+# Docusaurus
+.docusaurus/
+
+# ============================================================================
+# Comments and Annotations
+# ============================================================================
+
+# Keep published content but ignore local annotations
+*.annotated.md
+*.draft.md
